@@ -8,8 +8,8 @@ const projects = [
     story: "When I coded my identity into pixels.",
     
     tech: ["React", "Three.js", "GSAP"],
-    live: "#",
-    github: "#",
+    live: "https://shankar-portfolio-theta.vercel.app/",
+    github: "https://github.com/Uma-Shankar-Niddena/shankar-portfolio",
   },
 
   {
