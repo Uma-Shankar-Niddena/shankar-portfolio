@@ -1,0 +1,31 @@
+.fullscreen-loader {
+    position: fixed;
+    inset: 0;
+    background: #0e0e0e;
+    color: white;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "monospace";
+    transition: opacity 0.5s ease;
+  }
+  
+.loader-content h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    animation: pulse 1.5s infinite;
+  }
+  
+.loader-content p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.4; }
+    100% { opacity: 1; }
+  }
+  

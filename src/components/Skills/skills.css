@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.skills-page {
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+  background: #0d0d0d;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.skills-title {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(90deg, #6DC867, #2AB39D, #8B5E3C);
+
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+.skill-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 5px solid transparent;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+.skill-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255,255,255,0.1);
+  }
+  
+.skill-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+    z-index: 2;
+    position: relative;
+  }
+  
+.skill-story {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    font-size: 0.95rem;
+    z-index: 2;
+    position: relative;
+  }
+  
+  /* On hover: show the story */
+.skill-card:hover .skill-story {
+    opacity: 1;
+    max-height: 100px;
+    margin-top: 0.3rem;
+  }
+  
+/* Shared section style */
+.skill-section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+
+.skill-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 5px solid transparent;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255,255,255,0.1);
+}
+
+/* Text */
+.skill-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.skill-story {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+/* Quote */
+.skills-quote {
+  margin-top: 4rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+/* Level specific themes */
+.skill-section:nth-child(2) {
+  background-color: rgba(109, 200, 103, 0.1); /* 🪴 green */
+}
+.skill-section:nth-child(3) {
+  background-color: rgba(42, 179, 157, 0.1); /* 🌿 teal */
+}
+.skill-section:nth-child(4) {
+  background-color: rgba(139, 94, 60, 0.1); /* 🌳 brown */
+}
+
+.skill-section:nth-child(2) .skill-card {
+  border-color: #6DC867;
+}
+.skill-section:nth-child(3) .skill-card {
+  border-color: #2AB39D;
+}
+.skill-section:nth-child(4) .skill-card {
+  border-color: #8B5E3C;
+}

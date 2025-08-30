@@ -1,0 +1,38 @@
+.about-wrapper {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .about-slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+    box-sizing: border-box;
+    opacity: 0;
+    transform: scale(0.95);
+    filter: blur(10px);
+    transition: all 0.5s ease;
+    z-index: 0;
+  }
+  
+  .about-slide h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .about-slide p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
