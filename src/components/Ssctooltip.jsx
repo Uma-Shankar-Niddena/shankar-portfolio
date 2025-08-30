@@ -1,10 +1,8 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-<<<<<<< HEAD
-import "./Tooltip.css";
-=======
+
 import "./tooltip.css";
->>>>>>> a450134 (updated tooltip.css)
+
 
 const Tooltip = () => {
   return (

@@ -3,7 +3,6 @@ import { TypeAnimation } from "react-type-animation";
 
 import "./tooltip.css";
 
-
 const Tooltip2 = () => {
   return (
     <div className="tooltip-box">
