@@ -15,7 +15,7 @@ const Contact = () => {
           <div className="contact-card">aq
             <h2>📬 Contact Info</h2>
             <p><strong>Email:</strong> umaniddena@gmail.com</p>
-            <p><strong>Phone:</strong> +91 98765 43210</p>
+            <p><strong>Phone:</strong> +91 8984605392</p>
             <p><strong>Location:</strong> Hyderabad</p>
 
             <div className="socials">
